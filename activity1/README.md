@@ -8,6 +8,7 @@
 - Create a new branch e.g answers
 - Create a repository in GitHub
 - Change remote to point to your repo
+> OK
 
 ## Task 2/5: Brute force
 
