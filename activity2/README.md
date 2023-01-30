@@ -5,15 +5,17 @@
 Refer to the first [link](#links).
 
 - Why is Algorithm Analysis Important?
->
-
+> Algorithm analysis can tell important things about the efficiency, scalability and performance of the algoritm.
 
 - Explain the Big $O$ notation
->
+> from Wikipedia: In computer science, big O notation is used to classify algorithms according to how their run time or space requirements grow as the input size grows.
 
 - Compare `Linear`, `Logarithmic`, `Quadratic` and `Constant` complexities.
 
->
+> Quadratic function O(n²) is inefficient 
+> Linear O(n) is ok
+> Logarithmic O(log(n)) is good
+> Constant O(c) is excellent
 
 ## Task2
 
@@ -33,6 +35,7 @@ Refer to the first [link](#links).
 
 
 - What is the complexity of the algorithm?
+
 
 ## Task 4: : Individual, at home
 
