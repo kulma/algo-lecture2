@@ -23,7 +23,7 @@
 
   > Refer to `./src/search-binary.cpp`
 
-> Log base 2 (100 000) = 16.6 => 17
+> Log base 2 (100 000) = 16.6 rounded back to 16 +1 -> 17
 
 ## Task 4/5: Quiz
 
@@ -33,6 +33,7 @@
 - [] At most, 1.
 - [X] At most, 6.
 - [] At most, 16.
+> Log base 2 (5) +1 = 6
 
 ## Task 5/5: Individual, at home
 
@@ -43,6 +44,7 @@ Refactor the code in `./src/task4.cpp` to use recursion
   - Replace `printf()` with` std::cout()`
   - Include the right headers e.g. `iostream`
 
+> Refactored the code from the link to C++ (task4.cpp)
 ## Links
 
 - https://cpp.sh/
