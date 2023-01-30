@@ -15,11 +15,15 @@
 - What is the maximum number of steps it would take to perform a linear search on an ordered array of size 100,000?
   > Refer to `./src/search-linear.cpp`
 
+  > It would take maximum of length of the array (100 000 steps)
+
 ## Task 3/5: Decrease-and-Conquer
 
 - What is the maximum number of steps it would take to perform a binary search on an ordered array of size 100,000?
 
   > Refer to `./src/search-binary.cpp`
+
+> Log base 2 (100 000) = 16.6 => 17
 
 ## Task 4/5: Quiz
 
@@ -27,7 +31,7 @@
 
 - [] At most, 32.
 - [] At most, 1.
-- [] At most, 6.
+- [X] At most, 6.
 - [] At most, 16.
 
 ## Task 5/5: Individual, at home
