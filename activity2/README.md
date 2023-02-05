@@ -25,26 +25,26 @@ Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
 
-> Not working
+> I don't know how to get this to work with <list> so using <vector>
 ```cpp
 #include <iostream>
-#include <list>
+#include <vector>
 using namespace std;
-
-int findSquare(list<int> lista) {
-    int result = lista[0] * lista[0];
-    cout << result << endl;
-}
-
-int main() {
-    list<int> lista = {25, 35, 40, 68, 100};
-    findSquare(lista);
-    return 0;
-}
+    
+    int find_square(vector<int> lista) {
+        int result = lista[0] * lista[0];
+        cout << result << endl;
+    }
+    
+    int main() {
+        vector<int> lista = {5, 9, 40, 88, 140};
+        find_square(lista);
+        return 0;
+    }
 ```
 
 - What is the complexity of the algorithm?
->?
+> constant O(c), but it would be linear with list if had to go through them one by one
 
 ## Task 3
 
@@ -64,7 +64,7 @@ int main() {
 }
 ```
 - What is the complexity of the algorithm?
->?
+> complexity is linear O(n), going through them one by one
 
 
 ## Task 4: : Individual, at home
