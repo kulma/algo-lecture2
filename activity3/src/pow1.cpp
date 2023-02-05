@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 long power(int x, unsigned n)
 {
@@ -12,7 +13,35 @@ long power(int x, unsigned n)
     }
 
     return pow;
+} 
+
+int main(void)
+{
+    int x = -2;
+    unsigned n = 10;
+
+    cout << "pow(" << x << ", " << n << ") = " << power(x, n);
+
+    return 0;
 }
+
+
+
+/*  #include <stdio.h>
+
+long power(int x, unsigned n)
+{
+    // initialize result by 1
+    long pow = 1L;
+
+    // multiply `x` exactly `n` times
+    for (int i = 0; i < n; i++)
+    {
+        pow = pow * x;
+    }
+
+    return pow;
+} 
 
 int main(void)
 {
@@ -22,4 +51,4 @@ int main(void)
     printf("pow(%d, %d) = %d", x, n, power(x, n));
 
     return 0;
-}
+} */

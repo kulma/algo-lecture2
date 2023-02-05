@@ -7,6 +7,7 @@ The code in `./src/pow1.cpp` and `./src/pow2.cpp` compute the power `pow(x, n)` 
 > Refer to the following [link](https://www.techiedelight.com/power-function-implementation-recursive-iterative/).
 
 - What is the time complexity for both approaches?
+> Both linear O(n) 
 
 ## Task 2/3: Divide-and-conquer vs Decrease and conquer
 
@@ -18,7 +19,7 @@ The code in `./src/pow1.cpp` and `./src/pow2.cpp` compute the power `pow(x, n)` 
 - Refactor the code in `pow1.cpp` and `pow2.cpp`, as follows:
   - Replace `printf()` with` std::cout()`
   - Include the right headers e.g. `iostream`
-
+> OK
 ## Links
 
 - https://www.techiedelight.com/power-function-implementation-recursive-iterative/
