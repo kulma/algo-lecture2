@@ -25,7 +25,7 @@ Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
 
-> I don't know how to get this to work with <list> so using <vector>
+> I don't know how to get this to work with List so using Vector
 ```cpp
 #include <iostream>
 #include <vector>
